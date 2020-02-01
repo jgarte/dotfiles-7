@@ -8,6 +8,3 @@ stow -Rt ${XDG_CONFIG_HOME:=$HOME/.config} nvim
 
 # konsole colors
 stow -Rt "${XDG_CONFIG_HOME:=$HOME/.config}/konsole" konsole
-
-# kitty
-stow -Rt "${XDG_CONFIG_HOME:=$HOME/.config}/kitty" kitty
